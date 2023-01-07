@@ -93,12 +93,16 @@ color: #444343;
     color:#444343;
     margin-top:0;   
 }
-
+.combine-block{
+    display: block;
+    column-gap: 10px;
+    margin-left: 200px;
+}
 .image{
     width:600px;
     margin:0 150px;
     background-image: url('../images/watch.png'),url('../images/gradient2.png');
-    width:680px;
+    width:700px;
     background-blend-mode: multiply;
     height:150px;
     display:block;
