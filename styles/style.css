@@ -1,3 +1,12 @@
+/* .universal{
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    2nd banner e by default margin astesilo tai try korsilam youtube theke but kaj ki jani na
+    parle bole diyen
+} */
 *{
     font-family: 'Work Sans';
 }
@@ -117,7 +126,7 @@ color: #444343;
 .last1{
     display:flex;
     background-color: #151414;
-    margin:100px 0px;
+    margin:0px 0px;
     border-radius:5px ;
     width:100%;
     height:300px;
@@ -141,4 +150,16 @@ color: #444343;
     border-radius: 5px;
     color:red;
 
+}
+/* 2nd part */
+/* banner2 i will use every class name with 2 in last position */
+.banner-2{
+    background-image: url('../images/banner/banner2.png');
+    height: 800px;
+    padding:15px;   
+}
+.banner3{
+    background-image: url('../images/banner/banner3.png');
+    height: 800px;
+    padding:15px;
 }
