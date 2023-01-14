@@ -95,9 +95,10 @@ color: #444343;
 /* from .combine block to call all styles are for call last bc imge before footer but i cant 
 move the call button into background image  */
 .combine-block{
-    display: block;
+    position:absolute;
     column-gap: 10px;
     margin-left: 200px;
+    
 }
 .image{
     width:600px;
@@ -126,11 +127,13 @@ move the call button into background image  */
     color: #F15B22;
     border:none;
     border-radius: 5px;
-    margin:0 200px 200px 17px;
     font-size: 20px;
-
+    position:relative;
+    bottom:55px;
+    left:5px;
 }
 .last1{
+    
     display:flex;
     background-color: #151414;
     margin:0px 0px;
@@ -139,6 +142,8 @@ move the call button into background image  */
     height:300px;
     gap:20px;
     padding:50px 200px;
+    position:relative;
+    top:200px;
 }
 #title3{
     color:#FFFFFF;
